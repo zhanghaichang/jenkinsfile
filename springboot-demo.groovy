@@ -1,7 +1,7 @@
 node{   
         stage('Clone repository') {
 			//check CODE
-			git credentialsId: 'gitlab-admin', url: 'http://172.18.161.164:8888/zhanghc/springboot-demo.git'
+			git credentialsId: 'gitlab-admin', url: 'http://XXXXXXXX/springboot-demo.git'
         }
 
         stage('Sonar scan') {
